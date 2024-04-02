@@ -1,0 +1,21 @@
+html{
+/* Keyword value */
+mask-image: none;
+
+/* <mask-source> value */
+mask-image: url(masks.svg#mask1);
+
+/* <image> values */
+mask-image: linear-gradient(rgb(0 0 0 / 100%), transparent);
+mask-image: image(url(mask.png), skyblue);
+
+/* Multiple values */
+mask-image: image(url(mask.png), skyblue), linear-gradient(rgb(0 0 0 / 100%), transparent);
+
+/* Global values */
+mask-image: inherit;
+mask-image: initial;
+mask-image: revert;
+mask-image: revert-layer;
+mask-image: unset;
+}
